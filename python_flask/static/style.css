@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+#gameBoardForm {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#menu {
+    height: 100px;
+    width: 500px;
+}
+
+.gridBox {
+    width: calc(500px / 10);
+    height: calc(500px / 10);
+}
+
+.hidden_flag_button {
+    display: none;
+}
+
+.revealed {
+    width: calc(500px / 10);
+    height: calc(500px / 10);
+    background-color: white;
+}
+
+.bomb {
+    width: calc(500px / 10);
+    height: calc(500px / 10);
+    background-color: red;
+}
+
+.winBomb {
+    width: calc(500px / 10);
+    height: calc(500px / 10);
+    background-color: lightgreen;
+}
+
+#startRestartButton {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
